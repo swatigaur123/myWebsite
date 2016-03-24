@@ -1,0 +1,42 @@
+.total{
+  background-color: pink;
+  margin: auto;
+  padding-top: 20px;
+  height: 60px;
+
+
+
+}
+.wrap{
+  background-color:grey;
+  float:left;
+  width:60%;
+  height: 100px;
+}
+aside{
+
+  background-color: grey;
+  width:40%;
+  float: left;
+  height: 100px;
+  margin-right: 300px;
+
+}
+aside ul{
+  list-style: none;
+  padding-left: 0;
+}
+footer{
+  clear: both;
+}
+aside a{
+  text-decoration: none;
+  color: black;
+}
+aside a:hover{
+  color: yellow;
+  text-decoration: underline;
+}
+aside li{
+  display: inline;
+}

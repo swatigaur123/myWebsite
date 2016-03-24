@@ -1,0 +1,397 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	</title>
+	 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/finalcss.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	
+</head>
+<body>
+<!--navbar-->
+	<div class="row" id="navbarSection">
+		<nav class="navbar navbar-inverse ">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span> 
+					</button>
+					<a class="navbar-brand" href="#"><strong>The Kitab Ghar</strong></a>
+				</div>
+
+				<!--navbar left-->
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						 
+						<li class="active"><a href="#">Home</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" >Categories
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Fiction</a></li>
+								<li><a href="#">Non-Fiction</a></li>
+								<li><a href="#">Classic</a></li>
+								<li><a href="#">Best-Seller</a></li>
+
+							</ul>
+
+						</li>
+						<li><a href="#">About</a></li>
+					</ul>
+
+					<!--navbar right-->
+					<div class="col-md-3 col-sm-3 pull-right">
+						<form action="#" class="navbar-form">
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="Search" name="q">
+								<div class="input-group-btn">
+									<button class="btn btn-default" type="submit">
+										<i class="glyphicon glyphicon-search"></i>
+									</button>
+								</div>
+							</div>
+						</form>
+					</div>
+					<ul class="nav navbar-nav pull-right">
+
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" >
+								<span class="glyphicon glyphicon-user"><strong class="caret"></strong></span></a>	
+								<ul class="dropdown-menu">
+									<li><a href="#"><span class="glyphicon glyphicon-wrench"></span>
+										Settings</a></li>
+										<li><a href="#"><span class="glyphicon glyphicon-refresh"></span> 
+											Update Profile</a></li>
+
+										</ul>
+									</li>
+									
+									<div class="modal fade" id="myModal">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<button class="close" data-dismiss="modal"></button>	<h4 class="modal-title">Sign In</h4>					 
+												</div>
+												<div class="modal-body">
+													<form action="" class="form-horizontal">
+														<div class="form-group">
+															<label for="inputEmail" class="col-lg-2 control-label" type="text">Email</label>
+															<div class="col-lg-9">
+																<input type="text" class="form-control" id="inputEmail">
+
+															</div>
+														</div>
+														<div class="form-group">
+															<label for="inputPassword" class="col-lg-2 control-label" type="text">Password</label>
+															<div class="col-lg-9">
+																<input type="password" class="form-control" id="inputPassword">
+
+															</div>
+														</div>
+														<div class="form-group">
+
+															<div class="col-lg-11">
+																<button type="submit" class="btn btn-success pull-right">
+																	Sign In
+																</button>
+
+															</div>
+														</div>
+
+
+													</form>
+												</div>
+
+
+												<div class="modal-footer">
+
+													<button class="col-lg-12 btn btn-primary pull-right">Sign Up
+
+													</button>
+
+												</div>
+											</div>
+										</div>
+									</div>
+
+
+
+								</ul>
+							</div>
+						</div>
+					</nav>
+				</div>
+
+				<!--navbar ends-->
+			<div class="container">
+			<div class="carousel slide" id="myCarousel">
+			<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+					<li data-slide-to="3" data-target="#myCarousel"></li>
+				</ol>
+			    
+			<div class="carousel-inner" >
+				<div class="item active " id="slide1">
+					<img class="hero" src="image/hp.jpg" alt="ffff"  /> 
+					<div class="carousel-caption">
+
+						<h2>Harry Potter</h2>
+						<p>Once upon a time there lived a boy who was Named as the Chosen One as he Survived the fatal blow from......... </p>
+				
+					</div><!--caption-->
+
+			</div><!--item-->
+			<div class="item " id="slide1">
+			<img class=" hero inferno img1 img-responsive" src="image/inferno2.jpg"   alt="ffff" / > 
+			<div class="carousel-caption">
+
+			<h2>Harry Potter</h2>
+			<p>Once upon a time there lived a boy who was Named as the Chosen One as he Survived the fatal blow from......... </p>
+				
+			</div><!--caption-->
+
+			</div><!--item-->
+			<div class="item " id="slide1">
+			<img class=" hero Harry img1 img-responsive" src="image/sherlock2.jpg" alt="ffff"  > 
+			<div class="carousel-caption">
+
+			<h2>Harry Potter</h2>
+			<p>Once upon a time there lived a boy who was Named as the Chosen One as he Survived the fatal blow from......... </p>
+				
+			</div><!--caption-->
+
+			</div><!--item-->
+			<div class="item " id="slide1">
+			<img class=" hero Harry img1 img-responsive" src="image/revolution2.jpg" alt="ffff"  > 
+			<div class="carousel-caption">
+
+			<h2>Harry Potter</h2>
+			<p>Once upon a time there lived a boy who was Named as the Chosen One as he Survived the fatal blow from......... </p>
+				
+			</div><!--caption-->
+
+			</div><!--item-->
+				
+			</div><!--end of corousel-inner-->
+			<!-- Controls -->
+				<a class="left carousel-control" data-slide="prev" role="button" href="#myCarousel">
+				<span class="icon-prev" aria-hidden="true"></span></a>
+				<a class="right carousel-control" data-slide="next" role="button" href="#myCarousel"><span class="icon-next" aria-hidden="true"></span></a>
+
+			 
+			</div><!--mycarousel-->
+
+			<div class="row" id="bigcallout">
+			<div class="col-12">
+					<div class="well">
+						<div class="page-header">
+							<h2>NO TWO PERSONS EVER READ THE SAME BOOK!!! <br><small> Between The Pages Of A Book Is A Lovely Place To Be....</small></h2>
+						</div><!-- end page-header -->
+
+						<p class="lead">Some solid leading copy will help get your users engaged. Use this area to come up with something real nice. Know what I'm sayin?</p>
+
+						 
+						<a href="" class="btn btn-large btn-link"> a secondary link</a>
+					</div><!-- end well -->
+			</div><!--col-12-->
+			</div><!--bigcallout-->
+
+			<div class="row" id="featuresHeading">
+				<div class="col-12">
+					<h2>More Features</h2>
+					<p class="lead">Cornhole kitsch Williamsburg pug bicycle rights vegan. Neutra food truck occupy kitsch sustainable.</p>
+				</div><!-- end col-12 -->
+			</div><!-- end featuresHeading -->
+
+
+			<div class="row local1" id="features">
+				<div class="col-sm-4 feature">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h2 class="panel-title">Experience The Confort Of Reading</h2>
+						</div><!-- end panel-heading -->
+						<img src="image/imgg1.jpg" alt="HTML5" class="circle img-responsive">
+
+						<p>90's authentic single-origin coffee stumptown Pinterest. Fap aesthetic dreamcatcher pickled Brooklyn irony.</p>
+
+						<a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-warning btn-block">Slide show for pages </a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+
+				<div class="col-sm-4 feature">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h2 class="panel-title">Its All For Free</h2>
+						</div><!-- end panel-heading -->
+						<img src="image/imgg2.jpg" alt="CSS3" class="circle img-responsive">
+
+						<p>90's authentic single-origin coffee stumptown Pinterest. Fap aesthetic dreamcatcher pickled Brooklyn irony.</p>
+
+						<a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-danger btn-block">Free</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+
+				<div class="col-sm-4 feature">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h2 class="panel-title">Enter Into The World Of Books</h2>
+						</div><!-- end panel-heading -->
+						<img src="image/imgg3.jpg" alt="Bootstrap 3" class="circle img-responsive">
+
+						<p>90's authentic single-origin coffee stumptown Pinterest. Fap aesthetic dreamcatcher pickled Brooklyn irony.</p>
+
+						<a href="http://getbootstrap.com/" target="_blank" class="btn btn-info btn-block">Rate your book</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+			</div><!-- end features -->
+			
+			
+			<div class="row" id="features">
+			</div>
+
+			 
+			<div class="row" id="moreInfo">
+<div class="col-sm-6">
+<div class="tabbable">
+<h2>There  Is Always Something To Explore!!!!</h2>
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="#tab1" data-toggle="tab">Favourite Author</a></li>
+		<li><a href="#tab2" data-toggle="tab">Upcoming Novels </a></li>
+	</ul>
+	<div class="tab-content">
+		<div class="tab-pane active" id="tab1">
+			
+			
+			<h2>Know More About Your Favourite Author!!!</h2>
+			<img src="image/paulocoehlo1.jpg" alt="">
+			<p>Now you can love your favourite author by getting enough information about the one.</p>
+			<p>
+			 You can see which books are written by your author nad can enjoy them in your leisure time !!.  
+			</p>
+			 
+			
+			
+		</div><!-- end tab-pane -->
+		
+		<div class="tab-pane" id="tab2">
+			<h2>See For The Can't Wait upcoming Novels!!!</h2>
+			
+			<!-- <img src="http://placehold.it/140" class="thumbnail pull-left" alt="Placeholder image"> -->
+						<img  src="image/scion1.jpg	" alt="">
+			<p>
+			Waiting for the upcoming novel??..</p>
+			
+			<p> See the updates of your favourite novel and check out the list of many others.</p>
+			 
+			
+			 
+			
+			<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Sign In</a>  
+			
+		</div><!-- end tab-pane -->
+	</div><!-- end tab-content -->
+</div><!-- end tabbable -->
+</div><!-- end col-sm-6 -->
+				
+	<div class="col-sm-6">
+					
+					
+					<h4>Have A Look!!</h4>
+					
+					<div class="list-group">
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Read The Summary Of Your Book</h4>
+							<p class="list-group-item-text">The Immortals of Meluha is the first novel of the Shiva trilogy series by Amish Tripathi. The story is set in the land of Meluha and starts with the arrival of the Shiva. The Meluhan believe that Shiva is their fabled saviour Neelkanth. Shiva decides to help the Meluhans in their war against the Chandravanshis, who had joined forces with a cursed group called Nagas; however, in his journey and the resulting fight that ensues, Shiva learns how his choices actually reflected who he aspires to be and how it led to dire consequences......</p>
+						</a>
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Get The Reviews Of Your Novel</h4>
+							<p class="list-group-item-text">
+								i think amish has done a wonderful job... n fr all those who think it has geographical errors ,wrng info, n othr words n stuf.... its a fictional book... u can use any kinda words n false info in it...its not a big deal...its a great book. amish u rock !!!Mr.Tripathi is a good writer. I wish him good luck for his upcoming writings. But some issues I would like to arise, such as Shiva was never challenged throughout....everyone came in his way saw his blue throat and bowed in his feet...this was awkward...in the fightings he took down every opponent with ease...should have been a little more dramatic if he had faced some little flares of defeat...if his strategies were countered by his opponents..also some characters were never needed....and lastly these are my personal thoughts and I think Mr.Tripathi can do much better...I liked the first novel very much.. </p>
+						</a>
+						
+					</div><!-- list-group -->
+					
+					
+				</div><!-- end col-sm-6 -->
+			</div><!-- end moreInfo -->
+
+
+
+<hr>
+
+
+
+ 
+			 
+
+			<div class="row" id="moreCourses">
+			</div>
+
+		</div>
+		<footer>
+<div class="container-fluid">
+		<div class="row">
+			 
+			<div class="col-sm-4">
+				<h6>About Us</h6>
+				<p>The Kitab Ghar is the online reading website from which you can enjoy and love your novel!!if you wanna read something then just go for a click and there it is!!now just love your novel!!!....</p>
+			</div><!-- end col-sm-4 -->
+			
+			<div class="col-sm-4">
+				<h6>Learn more about</h6>
+				<ul class="styled">
+					<li><a href="#">List Of Our Favourite Readers </a></li>
+					<li><a href="#">our past experiences</a></li>
+					<li><a href="#">Your Suggestions</a></li>
+					<li><a href="#">Rate us</a></li>
+				</ul>
+				 
+				<h6>The Kitab Ghar @ all  copyrights reserved</h6>
+			</div><!-- end col-sm-2 -->
+			
+			<div class="col-sm-4">
+				<h6>Follow Us</h6>
+				
+				<ul class="unstyled">
+					<li><a href="#"><img src="image/twitter1.jpg"  alt="Twitter"></a></li>
+				
+				
+					<li><a href="#"><img src="image/facebook1.jpg"  alt="Facebook"></a></li>
+				
+				
+					<li><a href="#"><img src="image/whatsapp1.jpg"   alt="Google "></a></li>
+				
+				</ul>
+			</div><!-- end col-sm-2 -->
+			
+			 
+		</div><!-- end row -->
+
+	</div><!-- end container -->
+</footer>
+	<!-- </div>end of container -->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	
+	</body>
+</html>
+

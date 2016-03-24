@@ -1,0 +1,39 @@
+
+.navbar  {
+	background-color: #CCC;
+	height:10%;
+
+}
+.navbar-form{
+	color: black;
+}
+
+#myLogo h4{
+	margin:0px !important;
+}
+.navbar-brand{
+	padding: 15px 17px;
+}
+ .hero{
+	 
+	 background-size: cover;
+} 
+footer{
+
+	background: #CCC
+}
+.local1{
+text-align: center;
+
+}
+ .local1 img
+ {
+ 	padding-left: 30px;
+ 	padding-top: 30px;
+ 	padding-bottom: 30px;
+ }
+  .unstyled li{
+ 	 display: inline;
+ 	 padding-left: 20px;
+ }
+  
